@@ -5,17 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>form</title>
     <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>web form</h1>
     <form id="t">
-        <label for="firstName">first name</label>
-        <input type="text" id="firstName" name="firstName" placeholder="enter first name...">
-        <label for="lastName">last name</label>
-        <input type="text" id="lastName" name="lastName" placeholder="enter last name...">
-        <label for="email">email</label>
-        <input type="text" id="email" name="email" placeholder="enter email...">
+        <label for="firstName">first name</label> <br>
+        <input type="text" id="firstName" name="firstName" placeholder="enter first name..."> <br>
 
+        <label for="lastName">last name</label> <br>
+        <input type="text" id="lastName" name="lastName" placeholder="enter last name..."> <br>
+
+        <label for="email">email</label> <br>
+        <input type="text" id="email" name="email" placeholder="enter email..."> <br>
+
+        <label for="age">age</label> <br>
+        <input type="number" id="age" name="age" placeholder="enter age..."> <br>
+
+        <label for="phone">phone number</label> <br>
+        <input type="number" minlength="10" maxlength="10" id="phone" name="phone" placeholder="phone number"> <br>
+
+        <label for="street">street</label> <br>
+        <input type="text" id="street" name="street" placeholder="enter street name..."> <br>
+
+        <label for="city">city</label> <br>
+        <input type="text" id="city" name="city" placeholder="enter your city..."> <br>
+
+        <label for="state">state</label> <br>
+        <input type="text" id="state" name="state" placeholder="enter your state..."> <br>
+
+        <label for="zip">zip code</label> <br>
+        <input type="number" minlength="5" maxlength="5" id="zip" name="zip" placeholder="enter zip code..."> <br>
 
         <button type="submit">submit</button>
     </form>
